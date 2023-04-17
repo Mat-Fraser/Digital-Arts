@@ -1,0 +1,98 @@
+.add {
+  display: flex;
+  justify-content: center;
+
+  .container {
+    width: 1400px;
+    padding: 50px 0px;
+
+    h1 {
+      width: max-content;
+      margin-bottom: 30px;
+      color: gray;
+      font-weight: 300;
+    }
+
+    .sections {
+      display: flex;
+      justify-content: space-between;
+      gap: 100px;
+    
+
+      label {
+        color: gray;
+        font-size: 18px;
+        
+      }
+
+      .info,
+      .details {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: space-between;
+
+        input,
+        select,
+        textarea {
+          padding: 20px;
+        }
+        .images{
+          display: flex;
+          align-items: center;
+          gap: 20px;
+
+          .imagesInputs{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+          }
+        }
+
+        button {
+          background-color: #05445E;
+          border-radius: 15px;
+          margin-left: 5px;
+          color: white;
+          font-weight: 600;
+          border: none;
+          padding: 15px;
+          font-size: large;
+          cursor: pointer;
+          align-items: center;
+        }
+        button:hover{
+          color: black;
+          background: #75E6DA;
+          transition: 0.5s;
+          letter-spacing: 0px;
+          text-decoration: underline;
+        }
+        .add{
+          display: flex;
+          justify-content: space-between;
+
+          input{
+            width: 80%;
+          }
+        }
+        .addedFeatures{
+          display: flex;
+          gap: 20px;
+
+          button{
+            height: 30px;
+            font-size: 15px;
+            font-weight: 500;
+            background: transparent;
+            color: red;
+            border: 3px solid red;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+          }
+      }
+    }
+  }
+  }}

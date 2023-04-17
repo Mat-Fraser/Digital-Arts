@@ -1,0 +1,58 @@
+.reviews {
+    margin-top: 50px;
+    .add {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  
+      .addForm {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-radius: 5%;
+  
+        input {
+          padding: 20px;
+          box-sizing: border-box;
+          border: 2px solid #000000;
+          transition: 0.5s;
+          outline: none;
+          border-radius: 25px;
+        }
+        input[type=text]:focus {
+          border: 2px solid #189AB4;
+        }
+  
+        select {
+          width: 200px;
+          padding: 20px;
+          align-self: flex-end;
+        }
+        button {
+          background-color: #05445E;
+          border-radius: 55px;
+          width: 20%;
+          padding: 10px 0px 10px 0px;
+          color: white;
+          font-weight: 500;
+          border: none;
+          font-size: 20px;
+          cursor: pointer;
+        }
+        button:hover{
+          color: black;
+          background: #75E6DA;
+          transition: 0.5s;
+          letter-spacing: 2px;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    hr {
+      height: 0;
+      border: 0.5px solid lightgray;
+      margin: 50px 0px;
+    }
+  }
