@@ -22,7 +22,7 @@ try {
     console.log(error);
   };
 
-app.use(cors({ origin: "https://digital-arts.onrender.com", credentials: true }));
+app.use(cors({ origin: "https://digital-arts.netlify.app", credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 
