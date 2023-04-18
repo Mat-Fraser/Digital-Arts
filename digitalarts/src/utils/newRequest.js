@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const newRequest = axios.create({
-  baseURL: "https://digital-arts.onrender.com/",
+  baseURL: "https://digital-arts.onrender.com",
   withCredentials: true,
 });
 
